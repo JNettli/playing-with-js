@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #04040b;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 0;
+}
+
+.rainbowBtn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.rainbowBtn:hover {
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.sunBox {
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.sunBtn, .moonBtn {
+    padding: 16px;
+    border: 1px solid #000;
+    width: 150px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.sunBtn {
+    background-color: #FFFF00;
+}
+
+.moonBtn {
+    background-color: #4242FF;
+    color: #fff;
+}
+
+#myImage {
+    height: 128px;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: #FFADAD;
+    }
+    12% {
+        background-color: #ffd6a5;
+    }
+    24% {
+        background-color: #FDFFb6;
+    }
+    36% {
+        background-color: #CAFFBF;
+    }
+    48% {
+        background-color: #9BF6FF;
+    }
+    60% {
+        background-color: #A0C4FF;
+    }
+    72% {
+        background-color: #BDB2FF;
+    }
+    84% {
+        background-color: #FFC6FF;
+    }
+    100% {
+        background-color: #ffadad;
+    }
+}
