@@ -74,9 +74,11 @@ console.log(convertedString);
 // Turn it back!!!
 
 let number = 123;
+
 console.log(number);
 
 let convertedNum = number.toString();
+
 console.log(convertedNum);
 
 
@@ -85,6 +87,7 @@ console.log(convertedNum);
 
 var city = "Asker";
 const birthyear = "1996";
+
 console.log(city, age, birthyear);
 
 let quantity = 20;
@@ -92,7 +95,7 @@ let isJavaScriptFun = true;
 let thisIsUndefined;
 
 
-console.log(typeof greeting,typeof quantity,typeof isJavaScriptFun,typeof thisIsUndefined , typeof emptyValue);
+console.log(typeof greeting, typeof quantity, typeof isJavaScriptFun, typeof thisIsUndefined, typeof emptyValue);
 
 let numString = "25";
 let num = parseInt(numString);
