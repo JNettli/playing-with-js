@@ -19,19 +19,24 @@ var favColor = "Green";
 console.log(favColor);
 
 let age = 27;
+
 console.log(age);
 
 const MAKE = "Toyota";
+
 console.log(MAKE);
 
 let greeting = "Hello World!";
+
 console.log(typeof greeting);
 
 let isHappy = true;
+
 console.log(isHappy);
 console.log(typeof isHappy);
 
 let emptyValue = null;
+
 console.log(typeof emptyValue);
 
 let person = {
@@ -40,6 +45,7 @@ let person = {
     age: "27",
     bigbrain: "true"
 };
+
 console.log(person);
 console.log(person.firstName);
 console.log(person.lastName);
@@ -56,10 +62,10 @@ let car = {
 console.log("I have a " + car.make + " model " + car.model + " created the year " + car.createdYear + " in " + car.carCondition + " condition at the price of " + car.carPrice);
 console.log(`I have a ${car.make} model ${car.model} created the year ${car.createdYear} in ${car.carCondition} condition at the price of ${car.carPrice}`);
 
-
 // Array
 
 let blodklubbe = ["big", "strong", "green", {car}];
+
 console.log(blodklubbe);
 
 // 3. type conversion
@@ -69,6 +75,7 @@ let numberString = "1992"; // This is a string, this is considered text and cann
 // Lets convert that baby
 
 let convertedString = parseInt(numberString);
+
 console.log(convertedString);
 
 // Turn it back!!!
@@ -81,8 +88,6 @@ let convertedNum = number.toString();
 
 console.log(convertedNum);
 
-
-
 // Task
 
 var city = "Asker";
@@ -93,7 +98,6 @@ console.log(city, age, birthyear);
 let quantity = 20;
 let isJavaScriptFun = true;
 let thisIsUndefined;
-
 
 console.log(typeof greeting, typeof quantity, typeof isJavaScriptFun, typeof thisIsUndefined, typeof emptyValue);
 
