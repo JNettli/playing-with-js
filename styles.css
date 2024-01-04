@@ -4,10 +4,14 @@
 
 body {
     background-color: #04040b;
-    color: white;
+    color: #12d400;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin: 8px;
+}
+
+h6 {
+    display: none;
 }
 
 .rainbowBtn {
@@ -36,6 +40,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.refresh {
+    border: 0;
+    border-radius: 8px;
+    padding: 32px 64px;
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 600;
     cursor: pointer;
 }
 
