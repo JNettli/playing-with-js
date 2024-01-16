@@ -1,0 +1,33 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #02020b;
+}
+
+.item-list {
+    color: white;
+}
+
+.heart {
+    display: inline-flex;
+}
+
+.active-heart {
+    fill: red;
+    stroke: red;
+}
+
+.products-container {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    border-radius: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

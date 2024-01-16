@@ -110,3 +110,38 @@ let numString2 = num2.toString();
 console.log(numString2, num);
 console.log(num + num2);
 console.log(numString + numString2);
+
+
+let heading1 = document.querySelector("h1");
+
+function h1Changer() {
+    heading1.innerHTML = "It's a god dag";
+    heading1.style.color = "blue"
+    
+}
+
+let bodyGang = document.querySelector("body");
+
+function bgChanger() {
+    bodyGang.style.animationName = "rainbow-crazy";
+    bodyGang.style.animationDuration = "1s";
+    bodyGang.style.animationIterationCount = "infinite";
+}
+
+const pet = {
+    type: "cat",
+    name: "kitty",
+    age: 10,
+    isFriendly: false,
+    meowMeow: function () {
+        console.log("meow and stuff");
+    }
+}
+
+function meow() {
+    pet.meowMeow();
+}
+
+function reloader() {
+    location.reload();
+}
