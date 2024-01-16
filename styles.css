@@ -97,3 +97,58 @@ h6 {
         background-color: #ffadad;
     }
 }
+
+.big-btn {
+    padding: 200px;
+    font-size: 4rem;
+    position: absolute;
+    right: 20%;
+    top: 32px;
+    background-color: #BDB2FF;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.big-btn:hover {
+    animation-name: rainbow-crazy;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-crazy {
+    0% {
+        background-color: #FF0000;
+    }
+    15% {
+        background-color: #fF8800;
+    }
+    30% {
+        background-color: #FFFF00;
+    }
+    45% {
+        background-color: #00FF00;
+    }
+    60% {
+        background-color: #0088FF;
+    }
+    85% {
+        background-color: #0000FF;
+    }
+    95% {
+        background-color: #FF00FF;
+    }
+    100% {
+        background-color: #FF0033;
+    }
+}
+
+.meow {
+    padding: 32px;
+    font-size: 2rem;
+    background-color: purple;
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+    cursor: pointer;
+}
