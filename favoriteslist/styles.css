@@ -1,33 +1,74 @@
 html, body {
     box-sizing: border-box;
     background-color: #02020b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
-.item-list {
+.container {
+    background-color: #123414;
+    padding: 10px;
+}
+
+.container ul {
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-list a {
+    text-decoration: none;
     color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 20px;
+    transition: ease-in-out .3s;
+}
+
+.item-list a:hover {
+    background-color: white;
+    color: #123414;
+    transition: ease-in-out .3s;
 }
 
 .heart {
     display: inline-flex;
+    cursor: pointer;
+    fill: transparent;
+    transition: ease-in-out .3s;
+}
+
+.heart:hover {
+    stroke: red;
+    transition: ease-in-out .3s;
 }
 
 .active-heart {
-    fill: red;
+    transition: ease-in-out .3s;
     stroke: red;
+    fill: red;
 }
 
 .products-container {
     gap: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .product {
+    min-width: 600px;
+    max-width: auto;
     border-radius: 1rem;
-    border: 1px solid gray;
+    border: 2px solid gray;
     padding: 1rem;
-    background-color: darkmagenta;
+    background-color: #424280;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
+
+
