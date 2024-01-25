@@ -35,6 +35,41 @@ button::selection {
     color: inherit;
 }
 
+.naughtyEnter {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+.naughtyEnter p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#enter {
+    padding: 48px 96px;
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+#safety {
+    background-color: green;
+}
+
+#age {
+    outline: none;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    border: 5px groove gold;
+    padding: .5rem;
+}
+
 .navbar {
     display: flex;
     position: absolute;
