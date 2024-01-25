@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    background-color: #02020b;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: red;
+    transition: ease-in-out .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 75%;
+    transition: ease .3s;
+}
+
+button::selection {
+    background-color: inherit;
+    color: inherit;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.menuItem {
+    background-color: #ffa03b;
+    color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 16px 32px;
+    border-radius: 0 0 16px 16px;
+    transition: ease .3s;
+}
+
+.menuItem:hover {
+    background-color: #d7842b;
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+#coolDiv {
+    border-radius: 16px;
+    border: 1px solid black;
+    background-color: #aae;
+    color: #222;
+    padding: 16px;
+    margin-bottom: 16px;
+    max-width: 550px;
+}
+
+.coolDiv h1 {
+    text-align: center;
+}
+
+#thaMenu {
+    display: none;
+    transition: ease .3s;
+}
