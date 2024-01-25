@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #02020b;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 16px;
+    border: 0, 1px, 0, 0 solid black;
+}
+
+button {
+    padding: 16px;
+    width: 200px;
+    border: 0, 0, 0, 1px solid black;
+}
+
+.gangsta {
+    display: flex;
+    flex-direction: column;
+}
