@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #02020b;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ball {
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 8px;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: red;
+    } 
+    20% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: orange;
+    }
+    60% {
+        background-color: green;
+    }
+    80% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
