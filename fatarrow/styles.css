@@ -19,7 +19,7 @@ body, html {
     background-color: #efefef;
     color: #02020b;
     font-size: 1.3rem;
-    border: 1px solid red;
+    border: 8px solid purple;
     border-radius: 8px;
     width: fit-content;
     padding: 16px;
